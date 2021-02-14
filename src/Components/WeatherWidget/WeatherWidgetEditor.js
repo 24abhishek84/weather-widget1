@@ -31,12 +31,10 @@ const WeatherWidgetEditor = ({setSettings, settings}) => {
     <>
       <div><span>{title}</span></div>
       <div className="element-spacing">
-        <div style={{ marginRight: "100px" }}>
         <Radio.Group onChange={onChange} value={values}>
-          <Radio value={options[0]}>°{options[0]}</Radio>
-          <Radio value={options[1]}>°{options[1]}</Radio>
+          <Radio value={options[0]}>{title === 'Temperature' ? `°${options[0]}` : options[0]}</Radio>
+          <Radio value={options[1]} style={{marginLeft: '100px'}}>{title === 'Temperature' ? `°${options[1]}` : options[1]}</Radio>
         </Radio.Group>
-        </div>
       </div>
     </>
   );
