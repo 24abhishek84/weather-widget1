@@ -1,0 +1,25 @@
+.display-title {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.myclass {
+  background-color: #fff;
+  height: 220px;
+  padding-top: 37px;
+  padding-left: 37px;
+  margin-right: 63px;
+  margin-top: 57px;
+}
+
+.marginTop {
+  margin-top: 1px;
+}
+
+.temperature {
+  margin-top: 1px;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+
